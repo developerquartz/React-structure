@@ -5,7 +5,7 @@ export default function Redirectnotemod(props) {
 
   useEffect(() => { 
     setTimeout(() => {
-      window.location.replace('https://lat-ahlein.suffescom.dev/')
+      window.location.replace('https://lat-ahlein.test.dev/')
       props.onhide && props.onhide();
     }, 3000);
   }, [])

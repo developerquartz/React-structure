@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // const baseURL = process.env.REACT_APP_API_BASE_URL;
-const baseURL = "https://lat-admin.suffescom.dev/api/";
+const baseURL = "https://lat-admin.test.dev/api/";
 
 export default function runAxiosSetup({ token = "", adminId = "", headers = {} }) {
   axios.defaults.baseURL = baseURL;
